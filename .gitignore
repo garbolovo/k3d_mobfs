@@ -1,0 +1,79 @@
+# --- IDEs ---
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editors & Swap files ---
+*.swp
+*.bak
+*.tmp
+*.log
+*.orig
+
+# --- Node.js ---
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Go ---
+/bin/
+/obj/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+
+# --- C, C++ ---
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# --- Docker ---
+*.tar
+docker-compose.override.yml
+
+# --- Git ---
+*.orig
+*.rej
+
+# --- Archives ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# --- Misc ---
+.env
+.env.local
+*.pem
+coverage/
+dist/
+build/
+out/
+
