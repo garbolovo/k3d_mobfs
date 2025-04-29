@@ -8,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /home/filipp/Desktop/mobsf
+    path: /disks
   claimRef:
     name: mobsf-pvc            # 👈 Обратная привязка
     namespace: mobsf
